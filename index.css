@@ -28,6 +28,11 @@ h4 span {
   color: #ff6b6b;
 }
 
+.activity {
+    color: #ff6b6b;
+    font-size: 2rem;
+  }
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -39,7 +44,6 @@ h4 span {
 }
 
 img {
-  /* max-width: 250px; */
   width: 250px;
   height: 250px;
   object-fit: cover;
@@ -69,7 +73,7 @@ img {
   transform: scale(1.05);
 }
 
-@media (min-width: 760px) {
+@media (min-width: 850px) {
   .flex-container {
     flex-direction: row;
     flex-wrap: wrap;
